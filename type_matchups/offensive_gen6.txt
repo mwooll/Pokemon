@@ -1,0 +1,19 @@
+Type	Strong Against	Weak Against	Unsusceptibles
+Bug	Dark, Grass, Psychic	Fairy, Fighting, Fire, Flying, Ghost, Poison, Steel	None
+Dark	Ghost, Psychic	Dark, Fairy, Fighting	None
+Dragon	Dragon	Steel	Fairy
+Electric	Flying, Water	Electric, Dragon, Grass	Ground
+Fairy	Dark, Dragon, Fighting	Fire, Poison, Steel	None
+Fighting	Dark, Ice, Normal, Rock, Steel	Bug, Fairy, Flying, Poison, Psychic	Ghost
+Fire	Bug, Grass, Ice, Steel	Dragon, Fire, Rock, Water	None
+Flying	Bug, Fighting, Grass	Electric, Rock, Steel	None
+Ghost	Ghost, Psychic	Dark	Normal
+Grass	Ground, Rock, Water	Bug, Dragon, Fire, Flying, Grass, Poison, Steel	None
+Ground	Electric, Fire, Poison, Rock, Steel	Bug, Grass	Flying
+Ice	Dragon, Flying, Grass, Ground	Fire, Ice, Steel, Water	None
+Normal	None	Rock, Steel	Ghost
+Poison	Fairy, Grass	Ghost, Ground, Poison, Rock	Steel
+Psychic	Fighting, Poison	Psychic, Steel	Dark
+Rock	Bug, Fire, Flying, Ice	Fighting, Ground, Steel	None
+Steel	Fairy, Ice, Rock	Electric, Fire, Steel, Water	None
+Water	Fire, Ground, Rock	Dragon, Grass, Water	None

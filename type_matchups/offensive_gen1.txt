@@ -1,0 +1,16 @@
+Type	Strong Against	Weak Against Unsusceptible
+Bug	Grass, Poison, Psychic	Fighting, Fire, Flying, Ghost	None
+Dragon	None	None	None
+Electric	Flying, Water	Electric, Dragon, Grass	Ground
+Fighting	Ice, Normal, Rock	Bug, Flying, Poison, Psychic	Ghost
+Fire	Bug, Grass, Ice	Dragon, Fire, Rock, Water	None
+Flying	Bug, Fighting, Grass	Electric, Rock	None
+Ghost	Ghost	None	Normal, Psychic
+Grass	Ground, Rock, Water	Bug, Dragon, Fire, Flying, Grass, Poison	None
+Ground	Electric, Fire, Poison, Rock	Bug, Grass	Flying
+Ice	Dragon, Flying, Grass, Ground	Ice, Water	None
+Normal	None	Rock	Ghost
+Poison	Bug, Grass	Ghost, Ground, Poison, Rock	None
+Psychic	Fighting, Poison	Psychic	None
+Rock	Bug, Fire, Flying, Ice	Fighting, Ground	None
+Water	Fire, Ground, Rock	Dragon, Grass, Water	None

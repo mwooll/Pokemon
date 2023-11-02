@@ -1,0 +1,16 @@
+Type	Resistances	Weaknesses	Immunities
+Bug	Fighting, Grass, Ground	Fire, Flying, Rock, Poison	None
+Dragon	Electric, Fire, Grass, Water	Ice	None
+Electric	Electric, Flying	Ground	None
+Fighting	Bug, Rock	Flying, Psychic	None
+Fire	Bug, Fire, Grass	Ground, Rock, Water	None
+Flying	Bug, Fighting, Grass	Electric, Ice, Rock	Ground
+Ghost	Bug, Poison	Ghost	Normal, Fighting
+Grass	Electric, Grass, Ground, Water	Bug, Fire, Flying, Ice, Poison	None
+Ground	Poison, Rock	Grass, Ice, Water	Electric
+Ice	Ice	Fighting, Rock, Fire	None
+Normal	None	Fighting	Ghost
+Poison	Fighting, Grass, Poison	Ground, Psychic, Bug	None
+Psychic	Fighting, Psychic	Bug	Ghost
+Rock	Fire, Flying, Normal, Poison	Fighting, Grass, Ground, Water	None
+Water	Fire, Ice, Water	Electric, Grass	None
