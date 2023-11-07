@@ -69,7 +69,7 @@ class Pokemon:
             self.def_score += self.def_table[key]-1
         self.def_attr = 0
 
-    def get_off_matchups(self, STAB=False):
+    def get_off_matchups(self, STAB=True):
         self.advantages = []
         self.disadvantages = []
         self.unsusceptibles = []
@@ -104,7 +104,7 @@ class Pokemon:
                 self.moves.append(move)
                 self.get_off_matchups()
 
-    def set_moves_by_type(self, typings, STAB=False, generation=None):
+    def set_moves_by_type(self, typings, STAB=True, generation=None):
         self.reset_moves()
         if generation == None:
             generation = self.gen
@@ -120,7 +120,7 @@ class Pokemon:
     def get_moveset(self):
         return self.moves
 
-    def get_off_coverage(self, moves=2, given=[], STAB=False):
+    def get_off_coverage(self, moves=2, given=[], STAB=True):
         """This function aims to maximize self.off_score."""
         self.coverage_dict = {1: {}, 2: {}, 3: {}, 4: {}}
         self.inv_coverage_dict = {1: {}, 2: {}, 3: {}, 4: {}}
